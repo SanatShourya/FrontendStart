@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <section>
-        <nav>
-            <img src="./assets/FES.svg" alt="">
-            <ul>
-                <li>About</li>
-                <li>Discord</li>
-                <li>Contact</li>
+        <nav class="nav">
+            <img src="./assets/FES.svg" alt="" class="fes">
+            <ul class="list">
+                <li class="listitems">About</li>
+                <li class="listitems">Discord</li>
+                <li class="listitems">Contact</li>
             </ul>
 
         </nav>
         <header>
-            <div></div>
-            <div>
-                <h1>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, totam!
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit iure consequatur laborum facere perspiciatis quos magnam atque doloremque corporis?
-                </p>
+            <div class="initial">
+                <div>
+                    <h1 class="genh">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, totam!
+                    </h1>
+                    <p class="genp">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit iure consequatur laborum
+                        facere perspiciatis quos magnam atque doloremque corporis?
+                    </p>
+                    <button>Contact Us!</button>
+                </div>
+                <figure class="fig">
+                    <img src="./assets/laptop.png" alt="" class="fig">
+                </figure>
             </div>
-           <figure>
-            <img src="./assets/laptop.png" alt="">
-           </figure> 
+
         </header>
     </section>
 </body>
 
 <main>
     <section>
-        <h1> About</h1>
-        <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta deleniti, dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis blanditiis obcaecati tempora.
+        <div class="about">
+            <h1> About</h1>
+            <div class="sideside">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta
+                    deleniti,
+                    dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis
+                    blanditiis obcaecati tempora.
+                </p>
+                <figure class="fig">
+                    <img src="./assets/about.jpg" alt="" class="fig">
+                </figure>
+            </div>
         </div>
-        <figure>
-            <img src="./assets/about.jpg" alt="" >
-        </figure>
     </section>
+
     <section>
-        <h> Discord</h>i
-        <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta deleniti, dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis blanditiis obcaecati tempora.
+        <div class="discord">
+            <h1> Discord</h1>
+            <div class="sideside">
+                <figure>
+                    <img src="./assets/discord.png" alt="" class="fig">
+                </figure>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta
+                    deleniti,
+                    dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis
+                    blanditiis obcaecati tempora.
+                </p>
+            </div>
         </div>
-        <figure>
-            <img src="./assets/discord.png" alt="" >
-        </figure>
-    </section>    
+    </section>
+
     <section>
-        <h1> Contact</h1>
-        <form action="">
-            <label> Email</label>
-            <input type="text" placeholder="E-mail">
-            <label> Message</label>
-            <textarea row="50" column="50"> Type any message...</textarea>
-        </form>
+        <div class="forms">
+            <h1> Contact</h1>
+            <div class="formscenter">
+                <form action="">
+                    <label> Email:</label><br>
+                    <input type="text" placeholder="E-mail">
+                    <br>
+                    <label> Message:</label><br>
+                    <textarea row="50" column="50"> Type any message...</textarea>
+                </form>
+            </div>
+        </div>
     </section>
 </main>
-<footer>
-    <figure>
-        <img src="./assets/FES.svg" alt="">
-    </figure>
-    <h1> Copywrite Frontend Simplified</h1>
-    <a href=""> About</a>
-    <a href=""> Discord</a>
-    <a href=""> Contact</a>
+<footer class="another-footer">
+    <div class="footer">
+        <figure>
+            <img src="./assets/FES.svg" alt="" class="fig1">
+        </figure>
+        <h1> Copywrite Frontend Simplified</h1>
+        <div class="anchor">
+            <a href=""> About</a>
+            <a href=""> Discord</a>
+            <a href=""> Contact</a>
+        </div>
+    </div>
 </footer>
+
 </html>
