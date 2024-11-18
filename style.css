@@ -9,7 +9,7 @@
     background-color: blueviolet;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
 
 
 }
@@ -22,6 +22,7 @@
 .listitems {
     padding: 10px;
 }
+
 
 .fes {
     width: 300px;
