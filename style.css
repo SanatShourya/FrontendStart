@@ -9,7 +9,8 @@
     background-color: blueviolet;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 50px;
+    padding: 10px;
 
 
 }
@@ -28,26 +29,47 @@
     width: 300px;
 }
 
+header {
+    height: calc(100vh - 50px);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .initial {
     display: flex;
     background-color: red;
     margin: 0 auto;
     width: 100%;
+    max-width: 800px;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
     justify-content: center;
 }
 
+.width__manager--desc {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 .fig {
-    width: 130%;
-    padding-right: 30%;
+    width: 40%;
+}
+
+.fig1 {
+    width: 100%;
 }
 
 .genh {
-    font-size: 24px;
-
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 16px;
 }
 
 h1 {
@@ -61,7 +83,9 @@ p {
 }
 
 .genp {
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 15px;
 }
 
 .about {
