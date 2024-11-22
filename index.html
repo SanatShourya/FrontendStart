@@ -1,109 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <section>
-        <nav class="nav">
-            <img src="./assets/FES.svg" alt="" class="fes">
-            <ul class="list">
-                <li class="listitems">About</li>
-                <li class="listitems">Discord</li>
-                <li class="listitems">Contact</li>
-            </ul>
-
-        </nav>
-        <header>
-            <div class="initial">
-                <div class="width__manager--desc">
-                    <h1 class="genh">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, totam!
-                    </h1>
-                    <p class="genp">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit iure consequatur laborum
-                        facere perspiciatis quos magnam atque doloremque corporis?
-                    </p>
-                    <button>Contact Us!</button>
-                </div>
-                <figure class="fig">
-                    <img src="./assets/laptop.png" alt="" class="fig1">
-                </figure>
-            </div>
-
-        </header>
-    </section>
-</body>
-
-<main>
-    <section>
-        <div class="about">
-            <h1> About</h1>
-            <div class="sideside">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta
-                    deleniti,
-                    dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis
-                    blanditiis obcaecati tempora.
-                </p>
-                <figure class="fig">
-                    <img src="./assets/about.jpg" alt="" class="fig">
-                </figure>
-            </div>
+      <nav class="nav">
+        <img src="./assets/FES.svg" alt="" class="fes" />
+        <ul class="list">
+          <li class="listitems"><a href="#about">About</a></li>
+          <li class="listitems"><a href="#discord">Discord</a></li>
+          <li class="listitems"><a href="#forms">Contact</a></li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="initial">
+          <div class="width__manager--desc">
+            <h1 class="genh">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+              totam!
+            </h1>
+            <p class="genp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              suscipit iure consequatur laborum facere perspiciatis quos magnam
+              atque doloremque corporis?
+            </p>
+            <button>Contact Us!</button>
+          </div>
+          <figure class="fig">
+            <img src="./assets/laptop.png" alt="" class="fig1" />
+          </figure>
         </div>
+      </header>
     </section>
+  </body>
 
-    <section>
-        <div class="discord">
-            <h1> Discord</h1>
-            <div class="sideside">
-                <figure>
-                    <img src="./assets/discord.png" alt="" class="fig">
-                </figure>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sint fugit nihil soluta
-                    deleniti,
-                    dicta illum quaerat reiciendis, odio rem nam perferendis facere laudantium molestiae tenetur quis
-                    blanditiis obcaecati tempora.
-                </p>
-            </div>
+  <main>
+    <section id="about">
+      <h1>About</h1>
+      <div class="row">
+        <div class="sideside">
+          <p class="section__paras">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+            sint fugit nihil soluta deleniti, dicta illum quaerat reiciendis,
+            odio rem nam perferendis facere laudantium molestiae tenetur quis
+            blanditiis obcaecati tempora.
+          </p>
         </div>
-    </section>
-
-    <section>
-        <div class="forms">
-            <h1> Contact</h1>
-            <div class="formscenter">
-                <form action="">
-                    <label> Email:</label><br>
-                    <input type="text" placeholder="E-mail">
-                    <br>
-                    <label> Message:</label><br>
-                    <textarea row="50" column="50"> Type any message...</textarea>
-                </form>
-            </div>
-        </div>
-    </section>
-</main>
-<footer class="another-footer">
-    <div class="footer">
-        <figure>
-            <img src="./assets/FES.svg" alt="" class="fig1">
+        <figure class="section__figs">
+          <img src="./assets/about.jpg" alt="" class="section--image" />
         </figure>
-        <h1> Copywrite Frontend Simplified</h1>
-        <div class="anchor">
-            <a href=""> About</a>
-            <a href=""> Discord</a>
-            <a href=""> Contact</a>
+      </div>
+    </section>
+
+    <section id="discord">
+      <h1>Discord</h1>
+      <div class="row">
+        <figure class="section__figs">
+          <img src="./assets/discord.png" alt="" class="section--image" />
+        </figure>
+        <div class="sideside">
+          <p class="section__paras">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+            sint fugit nihil soluta deleniti, dicta illum quaerat reiciendis,
+            odio rem nam perferendis facere laudantium molestiae tenetur quis
+            blanditiis obcaecati tempora.
+          </p>
         </div>
+      </div>
+    </section>
+
+    <section id="forms">
+      <h1>Contact</h1>
+      <div class="row">
+        <form action="">
+          <div class="formscenter">
+            <div class="form--details">
+              <label> Email:</label>
+              <input type="text" placeholder="johndoe@gmail.com" />
+            </div>
+            <div class="form--details">
+              <label> Message:</label>
+              <textarea row="50" column="50">Type your message </textarea>
+            </div>
+            <button class="forms--button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer__desc">
+      <figure class="footer__logo">
+        <img src="./assets/FES.svg" alt="" class="footer__logo--img" />
+      </figure>
+      <h1 class="footer__header">Copywrite Frontend Simplified</h1>
+      <div class="footer__anchors">
+        <a href="#about" class="footer--anchor"> About</a>
+        <a href="#discord" class="footer--anchor"> Discord</a>
+        <a href="#forms" class="footer--anchor"> Contact</a>
+      </div>
     </div>
-</footer>
-
+  </footer>
 </html>
-
-asxsxasx
